@@ -124,7 +124,7 @@ else:
     # shorter lengths score too high
     filtered_df = df[(0.4 < df.score) & (df.score < 0.65)]
     if filtered_df.empty:
-        print(42*'-' + '\nFailed to generate viable candidates. Aborting!')
+        print(42*'-' + '\nFailed to generate. Aborting!')
     else:
         response = filtered_df.sample()
         print(f"Randomly selected response: {response}\n")
