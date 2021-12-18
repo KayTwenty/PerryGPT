@@ -1,7 +1,7 @@
 name: tweet
 on:
   schedule:
-    - cron: '*/10 * * * *'
+    - cron: '*/60 * * * *'
 jobs:
   tweet:
     runs-on: ubuntu-latest
