@@ -73,7 +73,7 @@ else:
     prompt = re.sub(r'http\S+', '', new_tweet[1]).strip() # no image or video links
     t1 = "They are a good player in video games, and a wonderful person!"
     t2 = "Gamers should not think over playing video games, It's all the matter of perfection!"
-    t3 = "This is actually not a tweet, I expected something far more better!"
+    t3 = "The village called. They'd like their idiot back. You better get going."
     prompt_updated = f"{prompt} Perry {t1} Perry {t2} Perry {t3} Perry is {prompt}" # magic sauce
     
     def process(s):
